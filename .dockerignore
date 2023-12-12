@@ -1,0 +1,11 @@
+# Exclude version control files
+.git
+.gitignore
+
+# Exclude Docker files
+Dockerfile
+compose.yml
+
+# Exclude unnecessary files for Docker build
+.vscode
+collection/*
