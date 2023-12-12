@@ -108,7 +108,5 @@ API documentation is available in the `collection/thunder-collection_Person Data
 To run the test cases, use the following command:
 
 ```go
-go test -v .
+go test -v ./...
 ```
-
-If your test suites are present in root directory, you only need to pass **`.`** .Otherwise you need to specify the **`./folder_containing_tests`** after `go test -v `.
